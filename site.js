@@ -1,10 +1,10 @@
 var data;
 var num=0;
-$('#lyricform').on('submit', function(e) {
-  var songtitle = $('#inputtext').val();
-  var url = 'http://api.chartlyrics.com/apiv1.asmx/SearchLyricDirect?artist=' + 'artist' + '&song=' + songtitle
+$('#artistform').on('submit', function(e) {
+  var artist = $('#inputtext').val();
+  var url = 'https://itunes.apple.com/search?term=' + artist;
   $.get(url, function(data) {
-    var lyrics = data.item[0].lyrics;
+    var aristinfo = data.item[0].artistinfo;
     $('results').append('<li><a>')
 
   e.preventDefault();
