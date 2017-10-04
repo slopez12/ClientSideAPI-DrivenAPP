@@ -46,3 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* End of stylesheet */
+/* Beginning of my edit */
+
+h1 {
+  color: blue;
+  font-size: 4em;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
