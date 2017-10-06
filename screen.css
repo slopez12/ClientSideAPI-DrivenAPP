@@ -51,9 +51,26 @@ table {
 /* Beginning of my edit */
 
 h1 {
-  color: blue;
+  color: white;
   font-size: 2.5em;
   font-weight: bold;
   font-family: Arial, sans-serif;
 	padding-bottom: .5em;
+	text-align: center;
+	background-color: black;
+}
+
+#results {
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#submit {
+  color: black;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	text-align: center;
+	background-color: white;
+	padding: .5em;
 }
