@@ -12,7 +12,7 @@ $('#artistform').on('submit', function(e) {
     console.log(typeof(data));
     $('#results').append('<li><a href="'+data['results'][0]['artistViewUrl']+'">' +
     data['results'][0]['artistName'] + '</a></li>');
-    $('#results').append('<li><a href="'+data['results'][1-50]['trackViewUrl']+'">' +
+    $('#results').append('<li><a href="'+data['results'][0]['trackViewUrl']+'">' +
     data['results'][0]['trackName'] + '</a></li>');
     $('#results').append('<li><a href="'+data['results'][0]['previewUrl']+'">' + '</a></li>');
   });
