@@ -60,6 +60,12 @@ h1 {
 	background-color: black;
 }
 
+p {
+	text-align: center;
+	font-size: 1em;
+	padding-top: .5em;
+}
+
 #results {
 	display: block;
 	text-align: center;
@@ -73,4 +79,16 @@ h1 {
 	text-align: center;
 	background-color: white;
 	padding: .5em;
+}
+
+#artistform {
+	width: 150px;
+	margin:auto;
+	padding-top: .5em;
+}
+
+#artistname {
+	padding-top: .5em;
+	text-align: center;
+	color: red;
 }
