@@ -19,7 +19,7 @@ $('#artistform').on('submit', function(e) {
       console.log(track.length);
       $('#results').append('<li><a href="'+track[i]['trackViewUrl']+'">' +
       track[i]['trackName'] + '</a></li>');
-      $('#results').append('<li><a href="'+track[i]['previewUrl']+'">' + 'Preview' + '</a></li>');
+      $('#results').append('<li><a href="'+track[i]['previewUrl']+'">' + 'Preview of the song' + '</a></li>');
       console.log("Artist's track preview URL is " + 'previewUrl');
     }
 
@@ -30,9 +30,6 @@ $('#artistform').on('submit', function(e) {
   e.preventDefault();
 });
 
-$("#clear").on('click', function() {
+$("#clear").on('onclick', function() {
   console.log("clear when clicked");
-})
-$('#artistname').on('focus', function(){
-  console.log('It works!');
 })
