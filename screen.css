@@ -57,13 +57,17 @@ h1 {
   font-family: Arial, sans-serif;
 	padding-bottom: .5em;
 	text-align: center;
-	background-color: black;
+	background-color: #581845;
 }
 
 p {
 	text-align: center;
 	font-size: 1em;
 	padding-top: .5em;
+}
+
+body {
+	background-color: #900c3f;
 }
 
 #results {
