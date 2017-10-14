@@ -74,9 +74,10 @@ body {
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	font-size: 1.5em;
 	display: block;
+	text-align: center;
 }
 
-#submit {
+#submit, #button {
   color: black;
 	margin-top: .5em;
 	margin-bottom: .5em;
