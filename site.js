@@ -13,16 +13,16 @@ $('#artistform').on('submit', function(e) {
     $('#results').append('<li><a href="'+data['results'][0]['artistViewUrl']+'">' +
     data['results'][0]['artistName'] + '</a></li>');
     console.log("Artist Url is " + 'artistViewUrl');
-    $('#results').append('<li><a href="'+data['results'][0]['trackViewUrl']+'">' +
-    data['results'][0]['trackName'] + '</a></li>');
-    console.log("Artist track URL is " + 'trackViewUrl');
-    var trackName = data['trackName'];
 
-  //  for (var trackName in data) {
-  //   if (data.hasOwnProperty(trackName))
-//}
-    $('#results').append('<li><a href="'+data['results'][0]['previewUrl']+'">' + '</a></li>');
-    console.log("Artist's track preview URL is " + 'previewUrl');
+    var track = data['results']
+    for(var i = 0; i < track.length; i++) {
+      console.log(track.length);
+      $('#results').append('<li><a href="'+track[i]['trackViewUrl']+'">' +
+      track[i]['trackName'] + '</a></li>');
+      //$('#results').append('<li><a href="'+data['results'][0]['previewUrl']+'">' + '</a></li>');
+      //console.log("Artist's track preview URL is " + 'previewUrl');
+    }
+
 
 
   });
