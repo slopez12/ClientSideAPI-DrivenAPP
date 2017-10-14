@@ -23,9 +23,9 @@ $('#artistform').on('submit', function(e) {
       console.log("Artist's track preview URL is " + 'previewUrl');
       $('#results').append('<li><img src="'+track[i]['artworkUrl100'] + '">' + '</li>');
     }
-    $('#results').empty();
-
 
   });
   e.preventDefault();
+
+  $('#results').empty();
 });
