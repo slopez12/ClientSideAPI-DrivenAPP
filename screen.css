@@ -75,6 +75,7 @@ body {
 	font-size: 1.5em;
 	display: block;
 	text-align: center;
+	padding-bottom: .5em;
 }
 
 #submit, #button {
@@ -93,7 +94,7 @@ body {
 }
 
 #artistname {
-	padding-top: .5em;
+	padding-top: 1em;
 	text-align: center;
 	color: black;
 }
