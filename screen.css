@@ -90,7 +90,7 @@ body {
 	padding-top: .5em;
 }
 
-#artistname {
+.artistname {
 	padding-top: .5em;
 	text-align: center;
 	color: black;
@@ -99,11 +99,9 @@ body {
 .trackName {
 	display: flex;
 	justify-content: flex-end;
-	flex-direction: column;
 }
 
 .previewUrl {
 	display: flex;
 	justify-content: flex-start;
-	flex-direction: column;
 }
