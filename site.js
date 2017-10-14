@@ -18,10 +18,10 @@ $('#artistform').on('submit', function(e) {
     for(var i = 0; i < track.length; i++) {
       console.log(track.length);
       $('#results').append('<li><a href="'+track[i]['trackViewUrl']+'">' +
-      track[i]['trackName'] + <img src="'+track[i]['artworkUrl100'] + '"> + '</a></li>');
+      track[i]['trackName'] + '</a></li>');
       $('#results').append('<li><a href="'+track[i]['previewUrl']+'">' + 'Preview of the song' + '</a></li>');
       console.log("Artist's track preview URL is " + 'previewUrl');
-      //$('#results').append('<li><img src="'+track[i]['artworkUrl100'] + '">' + '</li>');
+      $('#results').append('<li><img src="'+track[i]['artworkUrl100'] + '">' + '</li>');
     }
 
 
