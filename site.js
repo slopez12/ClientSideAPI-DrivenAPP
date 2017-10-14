@@ -30,6 +30,6 @@ $('#artistform').on('submit', function(e) {
   e.preventDefault();
 });
 
-$("#clear").on('onclick', function() {
-  console.log("clear when clicked");
-})
+//$("#clear").on('onclick', function() {
+//  console.log("clear when clicked");
+//})
