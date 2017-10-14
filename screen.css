@@ -101,9 +101,11 @@ body {
 .trackName {
 	display: flex;
 	justify-content: flex-end;
+	flex-direction: column;
 }
 
 .previewUrl {
 	display: flex;
 	justify-content: flex-start;
+	flex-direction: column;
 }
