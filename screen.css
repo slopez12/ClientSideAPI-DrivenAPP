@@ -98,12 +98,12 @@ body {
 	color: black;
 }
 
-#trackName {
-	text-align: left;
-	font-size: 2em;
+.trackName {
+	display: flex;
+	justify-content: flex-end;
 }
 
-#previewUrl {
-	text-align: right;
-	font-size: 3em;
+.previewUrl {
+	display: flex;
+	justify-content: flex-start;
 }
