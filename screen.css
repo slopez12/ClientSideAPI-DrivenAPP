@@ -97,3 +97,7 @@ body {
 	text-align: center;
 	color: black;
 }
+
+#artworkUrl100 {
+	align-items: flex-start;
+}
