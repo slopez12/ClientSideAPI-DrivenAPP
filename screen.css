@@ -90,16 +90,16 @@ body {
 	padding-top: .5em;
 }
 
-.artistname {
+#artistname {
 	padding-top: .5em;
 	text-align: center;
 	color: black;
 }
 
-trackName {
+#trackName {
 	text-align: right;
 }
 
-previewUrl {
+#previewUrl {
 	text-align: left;
 }
