@@ -98,7 +98,12 @@ body {
 	color: black;
 }
 
-#data['previewURL'] {
+#trackName {
 	text-align: left;
 	font-size: 2em;
+}
+
+#previewUrl {
+	text-align: right;
+	font-size: 3em;
 }
