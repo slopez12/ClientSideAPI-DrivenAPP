@@ -90,5 +90,10 @@ p {
 #artistname {
 	padding-top: .5em;
 	text-align: center;
-	color: red;
+	color: yellow;
+}
+
+#data['previewURL'] {
+	text-align: left;
+	font-size: 2em;
 }
