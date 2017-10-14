@@ -21,6 +21,7 @@ $('#artistform').on('submit', function(e) {
       track[i]['trackName'] + '</a></li>');
       $('#results').append('<li><a href="'+track[i]['previewUrl']+'">' + 'Preview of the song' + '</a></li>');
       console.log("Artist's track preview URL is " + 'previewUrl');
+      $('#results').append('<li><img src="' +track[i]['artworkUrl100'] + '">' + '</li>');
     }
 
 
