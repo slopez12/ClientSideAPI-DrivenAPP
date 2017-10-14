@@ -96,12 +96,10 @@ body {
 	color: black;
 }
 
-.trackName {
-	display: flex;
-	justify-content: flex-end;
+trackName {
+	text-align: right;
 }
 
-.previewUrl {
-	display: flex;
-	justify-content: flex-start;
+previewUrl {
+	text-align: left;
 }
