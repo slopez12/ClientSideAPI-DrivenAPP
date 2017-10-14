@@ -73,6 +73,7 @@ body {
 #results {
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	font-size: 1.5em;
+	display: block;
 }
 
 #submit {
@@ -94,12 +95,4 @@ body {
 	padding-top: .5em;
 	text-align: center;
 	color: black;
-}
-
-#trackName {
-	text-align: right;
-}
-
-#previewUrl {
-	text-align: left;
 }
