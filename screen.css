@@ -75,7 +75,7 @@ body {
 	font-size: 1.5em;
 	display: block;
 	text-align: center;
-	padding-bottom: .5em;
+	padding-bottom: 1em;
 }
 
 #submit, #button {
@@ -94,11 +94,12 @@ body {
 }
 
 #artistname {
-	padding-top: 1em;
+	padding-top: 1.5em;
 	text-align: center;
 	color: black;
 }
 
 #artworkUrl100 {
 	align-items: flex-start;
+	padding-top: 1em;
 }
