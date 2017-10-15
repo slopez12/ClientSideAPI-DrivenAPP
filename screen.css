@@ -90,13 +90,30 @@ body {
 #artistform {
 	width: 150px;
 	margin:auto;
-	padding-top: .5em;
+	padding-top: 1em;
 }
 
 #artistname {
 	padding-top: 1.5em;
 	text-align: center;
+	font-size: 1.5em;
 	color: black;
+}
+
+#artistName {
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+}
+
+#trackName {
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+}
+
+#previewUrl {
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+  font-size: 1em;
 }
 
 #artworkUrl100 {
