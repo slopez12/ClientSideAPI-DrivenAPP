@@ -106,16 +106,13 @@ body {
 	padding-bottom: 1em;
 }
 
-#trackName {
+#trackName, #previewUrl {
 	padding-top: 1.5em;
 	padding-bottom: 1em;
+	display: flex;
+	flex-direction: row;
 }
 
-#previewUrl {
-	padding-top: 1.5em;
-	padding-bottom: 1em;
-  font-size: 1em;
-}
 
 #artworkUrl100 {
 	align-items: flex-start;
