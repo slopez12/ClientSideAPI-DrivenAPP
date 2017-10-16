@@ -1,5 +1,3 @@
-var data;
-var num=0;
 $('#artistform').on('submit', function(e) {
   console.log("Form submitted!");
   var artistname = $('#artistname').val();
@@ -14,7 +12,7 @@ $('#artistform').on('submit', function(e) {
     data['results'][0]['artistName'] + '</a></li>');
     console.log("Artist Url is " + 'artistViewUrl');
 
-    var track = data['results']
+    var track = data['results'];
     for(var i = 0; i < track.length; i++) {
       console.log(track.length);
       $('#results').append('<li><a href="'+track[i]['trackViewUrl']+'">' +
